@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>BinaryCalc</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <script src="main.js"></script>
+
+    <header class="headerBox">
+        <p class="headerText">Binary Calc</p>
+    </header>
+
+    <form>
+        <select class="selectBox">
+            <option>Chose System</option>
+            <option>[ 2 ] - Binary</option>
+            <option>[ 3 ] - Ternary</option>
+            <option>[ 4 ] - Quaternary</option>
+            <option>[ 5 ] - Quinary</option>
+            <option>[ 6 ] - Senary</option>
+            <option>[ 7 ] - Septenary</option>
+            <option>[ 8 ] - Octal</option>
+            <option>[ 9 ] - Nonary</option>
+            <option>[ 10 ] - Decimal</option>
+            <option>[ 16 ] - Hexadecimal</option>
+        </select>
+
+        <br><input id="decimalValue" type="number" placeholder="Type a value"><br>
+
+        <button id="confirm" type="button" onclick="choseOption()">Calculate</button>
+
+        <div id="showValue"></div>
+    </form>
+
+    <footer>
+        <p class="footerText">Website Created By <br><a>28.09.2022</a><br> <span>Filip Samól</span></p>
+    </footer>
+
+</body>
+
+</html>
